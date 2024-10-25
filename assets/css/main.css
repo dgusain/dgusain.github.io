@@ -696,6 +696,44 @@ section,
   transition: 0.9s;
   background-color: var(--accent-color);
 }
+/* Skills Section Styling */
+.skill-item {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+@media (min-width: 576px) {
+  .skill-icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .skill-icon {
+    width: 90px;
+    height: 90px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Resume Section
